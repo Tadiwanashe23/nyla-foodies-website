@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Nyla Foodies</title>
+<meta name="description" content="Explore Nyla Foodies' menu of traditional Zimbabwean meals, vegetables, breakfast dishes and drinks.">
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.png" alt="Nyla Foodies logo">
+      <span>Nyla Foodies</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="team.html">Our Team</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary"><span>Book a Table</span> →</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero page-hero-photo banner-menu">
+  <div class="container">
+    <span class="eyebrow">Eat Like a Local</span>
+    <h1>Our Menu</h1>
+    <p>Prices shown are placeholders and can be updated at any time — ask your server for today's confirmed pricing and fresh specials.</p>
+  </div>
+</section>
+<div class="chevron-band"></div>
+
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Chef's Pick</span>
+      <h2>Featured Dish</h2>
+    </div>
+    <div class="card reveal" style="display:flex; gap:28px; flex-wrap:wrap; align-items:center;">
+      <img src="assets/featured-meals/Sadza ne road runner.jpg" alt="Sadza and Road Runner Chicken at Nyla Foodies" style="width:180px; height:180px; flex:none; border-radius:50%; object-fit:cover; box-shadow: var(--shadow-soft);">
+      <div style="flex:1; min-width:240px;">
+        <span class="menu-item-tag">Most Loved</span>
+        <h3 style="margin-top:8px;">Sadza Rezviyo &amp; Road Runner Chicken</h3>
+        <p>Free-range "road runner" chicken, slow-stewed with tomato, onion and traditional herbs, served with smooth stamped-maize sadza. The dish our regulars order most.</p>
+        <span class="menu-item-price">$9.50 <span style="font-size:0.7rem; color:var(--brown-soft); font-weight:700;"></span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="menu-tabs">
+      <button class="menu-tab active" data-cat="meals">Traditional Meals</button>
+      <button class="menu-tab" data-cat="vegetables">Traditional Vegetables</button>
+      <button class="menu-tab" data-cat="breakfast">Breakfast</button>
+      <button class="menu-tab" data-cat="drinks">Drinks</button>
+    </div>
+
+    <div class="menu-category active" id="meals">
+      <div class="category-head">
+        <div class="category-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#4E342E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0 0 16 0Z"/><path d="M2 12h20"/><path d="M12 12V7"/><path d="M9 5c0-1 1-2 3-2s3 1 3 2"/></svg>
+        </div>
+        <h3 style="margin:0;">Traditional Meals</h3>
+      </div>
+      <div class="card">
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/Sadza.jpg" alt="Sadza &amp; Beef Stew">
+            <div>
+              <span class="menu-item-name">Sadza &amp; Beef Stew</span><span class="menu-item-tag">Popular</span>
+            <p class="menu-item-desc">Smooth stamped-maize sadza served with beef slow-cooked in a rich tomato and onion stew.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$8.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/featured-meals/sadza and madora.jpg" alt="Sadza &amp; Oxtail">
+            <div>
+              <span class="menu-item-name">Sadza &amp; Madora</span>
+            <p class="menu-item-desc">Sadza served alongside fried or stewed mopane worms.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$11.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/sadza and muboora.jpg" alt="Sadza &amp; Chicken">
+            <div>
+              <span class="menu-item-name">Sadza &amp; Muboora</span>
+            <p class="menu-item-desc">This deeply cherished national staple features fluffy, piping-hot sadza (stone-ground white cornmeal) served alongside velvety muboora—tender pumpkin leaves expertly prepared and simmered to perfection.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$7.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/sadza ne derere.jpg" alt="Sadza &amp; Goat Meat">
+            <div>
+              <span class="menu-item-name">Sadza &amp; Derere (Okra)</span>
+            <p class="menu-item-desc">Sadza with a savory, slimy okra dish cooked quickly with bicarbonate of soda to maximize its iconic viscous texture.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$6.50</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/sadza remhunga and maguru.jpg" alt="Sadza &amp; Road Runner Chicken">
+            <div>
+              <span class="menu-item-name">Sadza remhunga, cabbage &amp; Maguru</span><span class="menu-item-tag">Popular</span>
+            <p class="menu-item-desc">A classic, highly celebrated traditional Zimbabwean meal that pairs a nutrient-rich millet starch with savory, slow-cooked beef tripe and cabbage.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$5.50</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/hwowa.jpg" alt="Sadza &amp; Kapenta">
+            <div>
+              <span class="menu-item-name">Sadza &amp; Hwowa</span>
+            <p class="menu-item-desc">Sadza with Mushrooms which are sautéed with onions and tomatoes.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$10.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/yellow Rice1.jpg" alt="Peanut Butter Rice">
+            <div>
+              <span class="menu-item-name">Yellow Rice and Pork Chop with Broccoli</span>
+            <p class="menu-item-desc">This classic weeknight dinner features pan-seared pork chops seasoned to perfection, vibrant turmeric-infused yellow rice, and tender steamed broccoli.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$5.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/Rice and egg.jpg" alt="Rice &amp; Beef Stew">
+            <div>
+              <span class="menu-item-name">Rice Egg &amp; Sauce</span>
+            <p class="menu-item-desc">Fluffy white rice served with our healthy undercooked eggs, sprinkled with our special flavor sauces.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$9.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="vegetables">
+      <div class="category-head">
+        <div class="category-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#4E342E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13c0-4 3-8 8-9 1 5-2 8-2 8s5-1 7 2c-2 4-4 6-6 6Z"/></svg>
+        </div>
+        <h3 style="margin:0;">Traditional Vegetables</h3>
+      </div>
+      <div class="card">
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/muboora.jpg" alt="Muboora">
+            <div>
+              <span class="menu-item-name">Muboora</span>
+            <p class="menu-item-desc">Pumpkin leaves cooked with peanut butter and a touch of onion, a classic traditional green.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$2.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/covo.jpg" alt="Covo">
+            <div>
+              <span class="menu-item-name">Covo</span>
+            <p class="menu-item-desc">Collard-style greens, lightly cooked with onion and tomato.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$1.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/black jack leaves.jpg" alt="Chomolia">
+            <div>
+              <span class="menu-item-name">Mutsine (Black Jack Leaves)</span>
+            <p class="menu-item-desc">Tender Black-Jack leaves cooked with tomatoes and onions.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$2.50</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/nyevhe.jpg" alt="Nyevhe">
+            <div>
+              <span class="menu-item-name">Nyevhe</span>
+            <p class="menu-item-desc">A slightly bitter traditional leafy green, valued for its distinct flavour and nutrition.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$2.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/derere.webp" alt="Derere (Okra)">
+            <div>
+              <span class="menu-item-name">Derere (Okra)</span>
+            <p class="menu-item-desc">Traditional okra stew, cooked down to a smooth, savoury texture.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$3.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="breakfast">
+      <div class="category-head">
+        <div class="category-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#4E342E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+        </div>
+        <h3 style="margin:0;">Breakfast</h3>
+      </div>
+      <div class="card">
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/12.jpeg" alt="Traditional Porridge">
+            <div>
+              <span class="menu-item-name">Nhopi</span><span class="menu-item-tag"></span>
+            <p class="menu-item-desc">A traditional, highly nutritious Zimbabwean porridge made primarily from pumpkin and peanut butter</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$4.50</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/madhumbe.jpg" alt="Tea">
+            <div>
+              <span class="menu-item-name">Madhumbe and Tea</span>
+            <p class="menu-item-desc">Taro roots that are peeled, cut and boiled in salted water until they are tender and soft.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$3.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/mutakura.jpg" alt="Coffee">
+            <div>
+              <span class="menu-item-name">Mutakura</span>
+            <p class="menu-item-desc">Freshly boiled together maize kernels, peanuts, and various legumes</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$3.50</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/mbambaira, avocado and eggs.jpg" alt="Fresh Juice">
+            <div>
+              <span class="menu-item-name">Mbambaira, Avocado and scrambled eggs</span>
+            <p class="menu-item-desc">Boiled sweet potatoes, avocados and scrambled eggs</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$3.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="drinks">
+      <div class="category-head">
+        <div class="category-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#4E342E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l-1.5 15a2 2 0 0 1-2 1.8h-5a2 2 0 0 1-2-1.8Z"/><path d="M6 8h12"/></svg>
+        </div>
+        <h3 style="margin:0;">Drinks</h3>
+      </div>
+      <div class="card">
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/mazoe.webp" alt="Mazoe">
+            <div>
+              <span class="menu-item-name">Mazoe Juice</span><span class="menu-item-tag">Popular</span>
+            <p class="menu-item-desc">Zimbabwe's classic orange cordial, served chilled.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$2.50</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/baobab juice.jpg" alt="Fresh Fruit Juices">
+            <div>
+              <span class="menu-item-name">Baobab Fresh Fruit Juices</span>
+            <p class="menu-item-desc">A rotating selection of fresh fruit juices, made in-house.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$2.00</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/pfuko.webp" alt="Soft Drinks">
+            <div>
+              <span class="menu-item-name">Pfuko Maheu</span>
+            <p class="menu-item-desc">A full range of chilled Taditional Maheu.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$1.50</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-row">
+            <img class="menu-item-photo" src="assets/sparkly water.jpg" alt="Bottled Water">
+            <div>
+              <span class="menu-item-name">Sparkly Bottled Water</span>
+            <p class="menu-item-desc">Sparkling, served chilled.</p>
+          </div>
+          </div>
+          <span class="menu-item-price">$5.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Not sure where to start?</h2>
+    <p>Tell us what you enjoy and our team will recommend the perfect plate.</p>
+    <a href="contact.html" class="btn btn-light">Ask Us Anything →</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="chevron-band" style="margin-bottom:40px;"></div>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="Nyla Foodies logo">
+          <span>Nyla Foodies</span>
+        </div>
+        <p style="color:rgba(255,243,201,0.75);">Traditional Zimbabwean meals for locals and tourists alike. Established July 2026.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>Corner First Street &amp;</li>
+          <li>Jason Moyo Avenue, Harare</li>
+          <li style="margin-top:6px;">Mon–Sun, 8:00 AM – 10:00 PM</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+263771345789">+263 77 134 5789</a></li>
+          <li><a href="mailto:Nylafoodies@gmail.com">Nylafoodies@gmail.com</a></li>
+          <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook: Nyla Foodies</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nyla Foodies. All rights reserved.</span>
+      <span>Made with pride in Harare, Zimbabwe.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
